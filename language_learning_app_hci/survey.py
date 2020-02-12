@@ -1,0 +1,16 @@
+SURVEY = [
+    'https://docs.google.com/forms/d/e/1FAIpQLSfjGbEPu0CFRcIBn1ycNIiDlN-x0RJ2DiMHUY2c1XmDDvcuZw/viewform',
+    'https://docs.google.com/forms/d/e/1FAIpQLSfjGbEPu0CFRcIBn1ycNIiDlN-x0RJ2DiMHUY2c1XmDDvcuZw/viewform',
+    'https://docs.google.com/forms/d/e/1FAIpQLSfjGbEPu0CFRcIBn1ycNIiDlN-x0RJ2DiMHUY2c1XmDDvcuZw/viewform',
+    'https://docs.google.com/forms/d/e/1FAIpQLSfjGbEPu0CFRcIBn1ycNIiDlN-x0RJ2DiMHUY2c1XmDDvcuZw/viewform',
+    'https://docs.google.com/forms/d/e/1FAIpQLSfjGbEPu0CFRcIBn1ycNIiDlN-x0RJ2DiMHUY2c1XmDDvcuZw/viewform',
+    'https://docs.google.com/forms/d/e/1FAIpQLSfjGbEPu0CFRcIBn1ycNIiDlN-x0RJ2DiMHUY2c1XmDDvcuZw/viewform',
+    'https://docs.google.com/forms/d/e/1FAIpQLSfjGbEPu0CFRcIBn1ycNIiDlN-x0RJ2DiMHUY2c1XmDDvcuZw/viewform',
+    'https://docs.google.com/forms/d/e/1FAIpQLSfjGbEPu0CFRcIBn1ycNIiDlN-x0RJ2DiMHUY2c1XmDDvcuZw/viewform',
+    'https://docs.google.com/forms/d/e/1FAIpQLSfjGbEPu0CFRcIBn1ycNIiDlN-x0RJ2DiMHUY2c1XmDDvcuZw/viewform',
+    'https://docs.google.com/forms/d/e/1FAIpQLSfjGbEPu0CFRcIBn1ycNIiDlN-x0RJ2DiMHUY2c1XmDDvcuZw/viewform',
+    'https://docs.google.com/forms/d/e/1FAIpQLSfjGbEPu0CFRcIBn1ycNIiDlN-x0RJ2DiMHUY2c1XmDDvcuZw/viewform',
+    'https://docs.google.com/forms/d/e/1FAIpQLSfjGbEPu0CFRcIBn1ycNIiDlN-x0RJ2DiMHUY2c1XmDDvcuZw/viewform',
+    'https://docs.google.com/forms/d/e/1FAIpQLSfjGbEPu0CFRcIBn1ycNIiDlN-x0RJ2DiMHUY2c1XmDDvcuZw/viewform',
+    'https://docs.google.com/forms/d/e/1FAIpQLSfjGbEPu0CFRcIBn1ycNIiDlN-x0RJ2DiMHUY2c1XmDDvcuZw/viewform',
+    ]

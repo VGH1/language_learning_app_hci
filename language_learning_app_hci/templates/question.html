@@ -1,0 +1,54 @@
+{% include "header.html" %}
+{% block head %}
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.6/socket.io.min.js"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='languageTask.js') }}"></script>
+{% endblock %}
+
+<body>
+<main role="main" class="container">
+    <div class="starter-template">
+        <div class="card-body">
+{#            <div id="chinese"></div>#}
+{#            <div id="hint"></div>#}
+{#            <div id="result"></div>#}
+            {% if page.is_test %}
+              <h1>Test Question</h1>
+            {% endif %}
+            <h2 class="card-title">Chinese: {{ page.chinese }}</h2>
+{#            <p>{{ session.error_count }}, {{ page.error_count_before_hint }} </p>#}
+            <p><p class="card-text">
+
+            {% if (session.error_count[current_page] < page.error_count_before_hint) %}
+                Hint: {{ page.hint }}
+            {% else %}
+                Hint: {{ page.answer }}
+            {% endif %}
+            </p></p>
+            {% with messages = get_flashed_messages() %}
+                {% if messages %}
+                    <ul>
+                        {% for message in messages %}
+                            {% if message == 'Wrong!' %}
+                                <div class="alert alert-danger" role="alert">
+                                    Wrong!<a href="#" class="alert"></a>
+                                </div>
+                            {% else %}
+                                {#                                <div class="alert alert-success" role="alert">#}
+                                {#                                    Correct!#}
+                                {#                                </div>#}
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            {% endwith %}
+
+            <form action="" method="post">
+                <input type="text" name="answer" autofocus/>
+                <input type="submit"/>
+            </form>
+
+        </div>
+    </div>
+</main><!-- /.container -->
+
+</body>
